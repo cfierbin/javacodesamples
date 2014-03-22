@@ -13,7 +13,7 @@ public class TestGenericMethod {
 	public static <T> void copy(List<T> source, List<? super T> destination) {
 	    for(T element : source) {
 	      destination.add(element);
-		  System.out.println("Copied retired employee. " + element.toString());
+		  System.out.println("Copied element. " + element.toString());
 	    }
 	  }
 
